@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C1041EC92BAF880F003081F2 /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1041EC82BAF880F003081F2 /* DestinationSearchView.swift */; };
+		C1041ECB2BAFDC03003081F2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1041ECA2BAFDC03003081F2 /* ProfileView.swift */; };
+		C1041ECD2BAFDE19003081F2 /* ProfileOptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1041ECC2BAFDE19003081F2 /* ProfileOptionRowView.swift */; };
 		C1D3F08F2BADEA5F00D6F92E /* AirbnbTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D3F08E2BADEA5F00D6F92E /* AirbnbTutorialApp.swift */; };
 		C1D3F0912BADEA5F00D6F92E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D3F0902BADEA5F00D6F92E /* ContentView.swift */; };
 		C1D3F0932BADEA6100D6F92E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1D3F0922BADEA6100D6F92E /* Assets.xcassets */; };
@@ -21,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		C1041EC82BAF880F003081F2 /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
+		C1041ECA2BAFDC03003081F2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C1041ECC2BAFDE19003081F2 /* ProfileOptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOptionRowView.swift; sourceTree = "<group>"; };
 		C1D3F08B2BADEA5F00D6F92E /* AirbnbTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirbnbTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D3F08E2BADEA5F00D6F92E /* AirbnbTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbTutorialApp.swift; sourceTree = "<group>"; };
 		C1D3F0902BADEA5F00D6F92E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -156,6 +160,8 @@
 		C1D3F0A42BADEBAE00D6F92E /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				C1041ECA2BAFDC03003081F2 /* ProfileView.swift */,
+				C1041ECC2BAFDE19003081F2 /* ProfileOptionRowView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1D3F0B22BAE0C7F00D6F92E /* ListingImageCarouselView.swift in Sources */,
+				C1041ECB2BAFDC03003081F2 /* ProfileView.swift in Sources */,
+				C1041ECD2BAFDE19003081F2 /* ProfileOptionRowView.swift in Sources */,
 				C1041EC92BAF880F003081F2 /* DestinationSearchView.swift in Sources */,
 				C1D3F0912BADEA5F00D6F92E /* ContentView.swift in Sources */,
 				C1D3F0AB2BADED9C00D6F92E /* ListingItemView.swift in Sources */,
